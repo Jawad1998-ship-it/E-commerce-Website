@@ -1,0 +1,25 @@
+*
+{
+  margin:0;
+  padding:0;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.search
+{
+  position:absolute;
+  left:280px;
+}
+
+.input{
+  position: relative;
+
+}
+
+@media only screen and (max-width:380px)
+{
+  .search{
+    position: absolute;
+    left:260px;
+  }
+}
